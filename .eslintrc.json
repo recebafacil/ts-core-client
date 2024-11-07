@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "project": ["tsconfig.json", "packages/shared/tsconfig.json", "packages/server/tsconfig.json"]
+      }
+    }
+  },
+  "extends": "@recebafacil/eslint-config/node",
+  "rules": {
+    "@typescript-eslint/naming-convention": "off"
+  }
+}

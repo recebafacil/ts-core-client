@@ -1,0 +1,27 @@
+{
+  "name": "@recebafacil/core-client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+
+    "canary": "npm run build && npm publish",
+    "patch": "npm version patch && npm run build && npm publish",
+    "minor": "npm version minor && npm run build && npm publish",
+    "major": "npm version major && npm run build && npm publish"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recebafacil/ts-core-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@recebafacil/eslint-config": "^1.0.1",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  }
+}
