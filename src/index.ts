@@ -1,3 +1,4 @@
-export * from './infra/http/entities/http-plan';
-export * from './infra/http/entities/http-subscription';
-export * from './infra/http/entities/http-payment-methods';
+export * from './infra/http/entities/http-event-entity';
+export * from './infra/http/entities/http-payment-method-entity';
+export * from './infra/http/entities/http-plan-entity';
+export * from './infra/http/entities/http-subscription-entity';

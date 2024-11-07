@@ -1,13 +1,13 @@
-import type { RfPaymentMethodType } from '@/infra/http/entities/http-payment-methods';
+import type { RfPaymentMethodType } from '@/infra/http/entities/http-payment-method-entity';
 
-enum SubscriptionStatusEnum {
+enum RfSubscriptionStatusEnum {
   ACTIVE = 'active',
   SUSPENDED = 'suspended',
   CANCELED = 'canceled',
   EXPIRED = 'expired',
 }
 
-export type RfSubscriptionStatus = `${SubscriptionStatusEnum}`;
+export type RfSubscriptionStatus = `${RfSubscriptionStatusEnum}`;
 
 export interface RfSubscription {
   id: string;

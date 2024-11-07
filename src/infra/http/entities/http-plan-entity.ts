@@ -1,4 +1,4 @@
-import type { RfPaymentMethodType } from '@/infra/http/entities/http-payment-methods';
+import type { RfPaymentMethodType } from '@/infra/http/entities/http-payment-method-entity';
 
 enum RfPlanFrequencyEnum {
   DAILY = 'daily',
